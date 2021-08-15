@@ -55,6 +55,10 @@ body {
   color: var(--second-text-color);
 }
 
+.link .current {
+  color: var(--second-text-color);
+}
+
 .list {
   list-style: none;
 }
@@ -91,6 +95,11 @@ body {
   cursor: pointer;
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -100,11 +109,6 @@ body {
 }
 
 /* Преимущества */
-.feature-section,
-.work-section {
-  background-color: #e5e5e5;
-}
-
 .feature-list .title {
   font-weight: 700;
   font-size: 14px;
@@ -157,13 +161,14 @@ body {
 .address-item {
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 
 .address-link {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+  font-style: normal;
 }
 
 .address-link:hover,
